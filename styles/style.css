@@ -1,0 +1,5 @@
+/* Common styles or utilities */
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
