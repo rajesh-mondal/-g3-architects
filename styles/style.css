@@ -57,3 +57,48 @@
     font-size: 64px;
     line-height: 75px;
 }
+.header-banner img{
+    width: 100%;
+}
+
+/* main css */
+.main {
+    padding: 0 140px;
+}
+
+/* Quick list features styles */
+.quick-list-features{
+    padding: 70px 0;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+.quick-list-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-left: 40px;
+}
+.quick-list-images img{
+    width: 100%;
+}
+.quick-list-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 540px;
+}
+.quick-list-content h3{
+    font-size: 45px;
+    color: #727272;
+    font-weight: 500;
+    line-height: 53px;
+}
+.off-our-text{
+    color: #131313;
+    font-weight: 700;
+}
+.features-text{
+    color: #FF900E;
+    font-weight: 700;
+}
