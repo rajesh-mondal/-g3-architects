@@ -102,3 +102,30 @@
     color: #FF900E;
     font-weight: 700;
 }
+
+/* Love and enjoy features styles */
+.love-enjoy-features{
+    margin-bottom: 150px;
+    padding-top: 30px;
+}
+.love-enjoy-maincontent{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+.love-enjoy-contents{
+    margin-top: 20px;
+    width: 50%;
+    padding-right: 50px;
+}
+.love-enjoy-contents p{
+    line-height: 26px;
+    color: #727272;
+}
+.love-enjoy-image{
+    width: 50%;
+    position: relative;
+}
+.love-enjoy-image img{
+    width: 100%;
+}
