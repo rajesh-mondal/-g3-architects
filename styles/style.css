@@ -3,6 +3,12 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+.heading {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
 .paragraph {
     color: #727272;
     line-height: 26px;
@@ -158,4 +164,24 @@
 .love-enjoy-btn-text {
     font-weight: 700;
     font-size: 50px
+}
+
+/* Some facts styles */
+.facts{
+    margin: 85px 0;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    text-align: center;
+}
+.fact{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 50px;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.fact:hover{
+    border: 1px solid red;
+    transform: scale(1.1);
 }
